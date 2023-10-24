@@ -22,6 +22,11 @@ import LogoutIcon from "@mui/icons-material/Logout";
 const drawerWidth = 240;
 const navItems = [
   {
+    path: "/",
+    name: "Home",
+    isLoggedIn: null,
+  },
+  {
     path: "/login",
     name: "Login",
     isLoggedIn: null,
